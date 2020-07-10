@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Add a Pet</title>
+    </head>
+    <body>
+        <h1>Add a Pet!</h1>
+        <form action="">
+            <div class="pet_name">
+                <label for="pet_name">Pet Name</label>
+                <input type="text" placeholder="e.g. Fifi" name="pet_name" id="pet_name">
+            </div>
+            <div class="pet_type">
+                <label for="type">Pet Type</label>
+                <select name="pet_type" id="pet_type">
+                    <option value="">dog</option>
+                    <option value="">cat</option>
+                    <option value="">horse</option>
+                    <option value="">fish</option>
+                    <option value="">bird</option>
+                    <option value="">reptile</option>
+                </select>
+            </div>
+            <div class="new_type">
+                <label for="new_type">Add a type</label>
+                <input type="text" name="new_type" id="new_type">    
+            </div>
+            <div class="fluff">
+                <p>Fluff Level</p>
+                <label for="fluff_level">No Fluff</label>
+                <input type="radio" name="fluff" id="fluff_level">
+                <label for="fluff_level">Kinda Fluff</label>
+                <input type="radio" name="fluff" id="fluff_level">
+                <label for="fluff_level">Full Fluff</label>
+                <input type="radio" name="fluff" id="fluff_level">    
+            </div>
+            <div class="birthday">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+            <div class="coat_color">
+                <p>Coat Color</p>
+                <label for="coat_color">Brown</label>
+                <input type="checkbox" name="coat_color" id="coat_color">
+                <label for="coat_color">Black</label>
+                <input type="checkbox" name="coat_color" id="coat_color">
+                <label for="coat_color">White</label>
+                <input type="checkbox" name="coat_color" id="coat_color">
+                <label for="coat_color">Tan</label>
+                <input type="checkbox" name="coat_color" id="coat_color">
+                <label for="coat_color">Other</label>
+                <input type="checkbox" name="coat_color" id="coat_color">
+            </div>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

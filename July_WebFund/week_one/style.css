@@ -1,0 +1,25 @@
+/*
+seleceted_element {
+    css_property: value;
+}
+*/
+
+h1 {
+    color: green;
+    font-size: 5em;
+    outline: 2px dotted red;
+}
+
+/*
+#pet_name {
+    display: block;
+}
+*/
+
+div {
+    outline: 2px dotted green;
+}
+
+.pet_type, .new_type {
+    display: inline-block;
+}
