@@ -1,0 +1,38 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+
+#container {
+    background-color: #d5d2ae;
+    margin: 0% 5%;
+    padding: 5%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+header img {
+    background-color: white;
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+div.row img {
+    border: .25em solid black;
+    padding: 1.5%;
+}
+
+div.row img.odd {
+    background-color: #82b4ee;
+}
+
+div.row img.even {
+    background-color: #f36870;
+}
