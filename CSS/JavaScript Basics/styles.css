@@ -1,0 +1,74 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+
+#container {
+    background-color: #1b335d;
+    width: 970px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+
+header, nav, main, footer {
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+header {
+    background-color: #cf3036;
+    margin-bottom: 20px;
+    color: #c2d6ec;
+}
+
+nav {
+    background-color: #2a7d8c;
+    display: inline-block;
+}
+
+nav ul li, nav {
+    color: #c2d6ec;
+    width: 150px;
+    font-size: small;
+}
+
+nav ul {
+    padding: 0px 15px;
+
+}
+
+main {
+    background-color: black;
+    display: inline-block;
+    vertical-align: top;
+    color: #c2d6ec;
+    width: 746px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+main ul {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+a {
+    color: aqua;
+}
+
+code {
+    color: #7b88f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: #5d6673;
+    color: #c2d6ec;
+}
