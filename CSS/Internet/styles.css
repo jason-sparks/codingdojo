@@ -1,0 +1,202 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+
+#container {
+    width: 970px;
+    height: 100%;
+}
+
+#globe {
+    height: 75px;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2 {
+    background: rgb(34,101,158);
+    background: linear-gradient(180deg, rgba(34,101,158,1) 0%, rgba(81,131,173,1) 50%, rgba(34,101,158,1) 100%);
+    color: white;
+    height: 25px;
+    padding: 15px 20px;
+}
+
+main {
+    width: 100%;
+    height: 710px;
+    display: inline-block;
+    overflow: hidden;
+    background: rgb(227,227,227);
+    background: linear-gradient(180deg, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 25%);
+}
+
+main > p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    width: 20%;
+    height: 535px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+aside > p {
+    margin: 10px 0 0 5px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.red-text {
+    color: red;
+    font-weight: 900;
+}
+
+.blue-text {
+    color: #0097ae;
+    font-weight: 900;
+}
+
+.dark-blue-text {
+    color: #22659e;
+    font-weight: 900;
+}
+
+button {
+    display: block;
+    margin: 0px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 170px;
+}
+
+#btn-1 {
+    background-color: #4480b2;
+    margin-top: 20px;
+}
+
+#btn-2 {
+    background-color: #ee8c0f;
+    margin-bottom: 20px;
+}
+
+#btn-3 {
+    background-color: #28c7df;
+}
+
+hr {
+    color: lightgray;
+}
+
+#ad {
+    background-image: url("www-images/ad_background.png");
+    color: white;
+    height: 399px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ad > p {
+    width: 172px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#ninja {
+    height: 125px;
+    margin: 16px auto;
+    display: block;
+}
+
+#home {
+    height: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+#dns {
+    margin-top: 12.5px;
+}
+
+#phone {
+    height: 40px;
+    margin-left: 430px;
+    margin-right: 10px;
+    padding-top: 17px;
+    display: inline-block;
+}
+
+.contact {
+    padding-left: 10px;
+    font-size: smaller;
+}
+
+#number {
+    color: #00c0df;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: -10px;
+}
+
+#top-content {
+    width: 725px;
+    display: inline-block;
+    position: relative;
+    bottom: 455px;
+    left: 225px;
+    border-top: 2px solid lightgray;
+}
+
+ul, ol {
+    padding-left: 37px;
+}
+
+#client-server{
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin: 25px auto;
+}
+
+#bottom-content {
+    margin-top: 25px;
+    outline: 5px solid #0085e0;
+    width: 629px;
+    margin-left: 5px;
+    height: 215px;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 455px;
+    left: 225px;
+}
+
+#big-3 {
+    height: 110px;
+}
+
+#bottom-content > h3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bottom-content > div {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+}
