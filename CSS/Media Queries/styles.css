@@ -1,0 +1,38 @@
+/* 
+
+Challenge: 
+
+Change the color of the buttons and how the buttons are oriented depending on screen size.
+
+    For desktop users, arrange all four buttons in one line and make them red. 
+    For tablet users, place two buttons per line and make them blue. 
+    For phone users, give each button its own line and make them yellow. 
+
+*/
+
+
+.nav-btn {
+    width: 200px;
+    height: 150px;
+}
+
+/* Note that there is no semicolon (;) after the condition inside the parenthesis. */
+
+@media only screen and (max-width: 480px) {
+    /* We will set these stylings only if the device is a screen with a width of 480px or less */
+    .nav-btn { 
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 481px){
+    .nav-btn { 
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .nav-btn { 
+        background-color: red;
+    }
+}
