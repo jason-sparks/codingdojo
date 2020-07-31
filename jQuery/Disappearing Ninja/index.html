@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jason Sparks">
+        <meta name="description" content="Disappearing Ninja assignment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery Practice</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("img").click(function disappear() {
+                    $(this).css("visibility", "hidden");
+                })
+                $("button").click(function reappear() {
+                    $("img").css("visibility", "visible")
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Disappearing Ninja</h1>
+            <div class="row">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+            </div>
+            <div class="row">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <img src="ninja.jpg" alt="ninja cartoon character">
+                <button>Restore</button>
+            </div>
+        </div>
+    </body>
+</html>
