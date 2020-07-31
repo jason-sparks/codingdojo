@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jason Sparks">
+        <meta name="description" content="Disappearing Ninja assignment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ninja to Cat</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("img").click(function changePic() {
+                    var id = $(this).attr("id");
+                    var dataAltSrc = $(this).attr("data-alt-src");
+                    var srcNinja = "ninja-cat/img/ninja";
+
+                    if ($(this).attr("src") == srcNinja + id + ".png") {
+                        $(this).attr("src", dataAltSrc);
+                    }
+                    else {
+                        $(this).attr("src", srcNinja + id + ".png");
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Ninja to Cat</h1>
+            <img id="0" src="ninja-cat/img/ninja0.png" alt="Section of ninja cartoon" data-alt-src="ninja-cat/img/cat0.png">
+            <img id="1" src="ninja-cat/img/ninja1.png" alt="Section of ninja cartoon" data-alt-src="ninja-cat/img/cat1.png">
+            <img id="2" src="ninja-cat/img/ninja2.png" alt="Section of ninja cartoon" data-alt-src="ninja-cat/img/cat2.png">
+            <img id="3" src="ninja-cat/img/ninja3.png" alt="Section of ninja cartoon" data-alt-src="ninja-cat/img/cat3.png">
+            <img id="4" src="ninja-cat/img/ninja4.png" alt="Section of ninja cartoon" data-alt-src="ninja-cat/img/cat4.png">
+        </div>
+    </body>
+</html>
