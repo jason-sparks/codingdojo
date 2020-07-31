@@ -1,0 +1,57 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+   }
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+section {
+    border-bottom: 5px solid black;
+    margin: 0px auto;
+    padding: 5px 0 5px 5px;
+}
+
+h2 {
+    text-align: left;
+    display: block;
+    margin-bottom: 15px;
+}
+
+p.description {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    padding: 2px 5px;
+    display: inline-block;
+}
+
+p.docs {
+    display: inline-block;
+    width: 200px;
+    margin-left: 80%;
+}
+
+.important {
+    background-color: red;
+    font-weight: 900;
+}
+
+.top-align {
+    vertical-align: top;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+

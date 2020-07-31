@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jason Sparks">
+        <meta name="description" content="jQuery Functions">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery Practice</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#btn-addClass").click(function() {
+                    $("#addClass").addClass("important");
+                });
+
+                $("#btn-after").click(function() {
+                    $("#after .docs").after("<h3>jQuery .after() method!</h3>");
+                });
+
+                $("#btn-append").click(function() {
+                    $("#append button").append("_append");
+                });
+                
+                $("#btn-attr").click(function() {
+                    var site = $("#attr a").attr("href");
+                    alert(site);
+                });
+
+                $("#btn-before").click(function() {
+                    $("#before button").before("<h3>jQuery .before() method!</h3>");
+                });
+
+                $("#btn-click").click(function() {
+                    $(this).click(alert("click, click, clickitty, click"));
+                });
+
+                $("#btn-fadeIn").click(function() {
+                    $("#fadeOut").fadeIn(1000);
+                });
+
+                $("#btn-fadeOut").click(function() {
+                    $("#fadeOut").fadeOut();
+                });
+
+                $("#btn-hide").click(function() {
+                    $("#hide").hide();
+                });
+
+                $("#btn-html").click(function() {
+                    alert($("#html").html());
+                });
+
+                $("#btn-show").click(function() {
+                    $("#hide").show("");
+                });
+
+                $("#btn-slideDown").click(function() {
+                    $("#slideUp").slideDown();
+                });
+
+                $("#btn-slideToggle").click(function() {
+                    $("#slideToggle .docs").slideToggle();
+                });
+
+                $("#btn-slideUp").click(function() {
+                    $("#slideUp").slideUp();
+                });
+
+                $("#btn-text").click(function() {
+                    alert($("#text").text());
+                });
+
+                $("#btn-toggle").click(function() {
+                    $("#toggle .docs").toggle("");
+                });
+
+                $("#btn-val").click(function() {
+                    var singleValues = $("#single").val();
+                    var multipleValues = $("#multiple").val() || [];
+                    alert("Single: " + singleValues + "\nMultiple: " + multipleValues.join( ", " ));
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>jQuery Functions</h1>
+            </header>
+            <main>
+                <section id="addClass">
+                    <h2>.addClass()</h2>
+                    <button id="btn-addClass">addClass</button>
+                    <p class="description">Click the button to add the class "important" to this section.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/addClass/" target="_blank">addClass</a></p>
+                </section>
+
+                <section id="after">
+                    <h2>.after()</h2>
+                    <button id="btn-after">after</button>
+                    <p class="description">Click the button to add some HTML elements after the "Documentation" paragraph element.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/after/" target="_blank">after</a></p>
+                </section>
+                
+                <section id="append">
+                    <h2>.append()</h2>
+                    <button id="btn-append">append</button>
+                    <p class="description">Click the button to append text to it.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/append/" target="_blank">append</a></p>
+                </section>
+                
+                <section id="attr">
+                    <h2>.attr()</h2>
+                    <button id="btn-attr">attr</button>
+                    <p class="description">Click the button to get the href attribute from the documentation link.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/attr/" target="_blank">attr</a></p>
+                </section>
+                
+                <section id="before">
+                    <h2>.before()</h2>
+                    <button id="btn-before">before</button>
+                    <p class="description">Click the button to add some HTML elements before the button element.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/before/" target="_blank">before</a></p>
+                </section>
+                
+                <section id="click">
+                    <h2>.click()</h2>
+                    <button id="btn-click">click</button>
+                    <p class="description">Click the button to see a click event handler.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/click/" target="_blank">click</a></p>
+                </section>
+                
+                <section id="fadeIn">
+                    <h2>.fadeIn()</h2>
+                    <button id="btn-fadeIn">fadeIn</button>
+                    <p class="description">Click the button to see the next section, fadeOut, fade back in.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/fadeIn/" target="_blank">fadeIn</a></p>
+                </section>
+                
+                <section id="fadeOut">
+                    <h2>.fadeOut()</h2>
+                    <button id="btn-fadeOut">fadeOut</button>
+                    <p class="description">Click the button to see this section fade away.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/fadeOut/" target="_blank">fadeOut</a></p>
+                </section>
+                
+                <section id="hide">
+                    <h2>.hide()</h2>
+                    <button id="btn-hide">hide</button>
+                    <p class="description">Click the button to hide this section.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/hide/" target="_blank">hide</a></p>
+                </section>
+                
+                <section id="html">
+                    <h2>.html()</h2>
+                    <button id="btn-html">html</button>
+                    <p class="description">Click the button to see the HTML of this section.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/html/" target="_blank">html</a></p>
+                </section>
+                
+                <section id="show">
+                    <h2>.show()</h2>
+                    <button id="btn-show">show</button>
+                    <p class="description">Click the button to make the previous section, hide, reappear.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/show/" target="_blank">show</a></p>
+                </section>
+                
+                <section id="slideDown">
+                    <h2>.slideDown()</h2>
+                    <button id="btn-slideDown">slideDown</button>
+                    <p class="description">Click the button to see the section, slideUp, slide up and disappear.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/slideDown/" target="_blank">slideDown</a></p>
+                </section>
+                
+                <section id="slideToggle">
+                    <h2>.slideToggle()</h2>
+                    <button id="btn-slideToggle">slideToggle</button>
+                    <p class="description">Click the button to toggle documentation paragraph up and down.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/slideToggle/" target="_blank">slideToggle</a></p>
+                </section>
+                
+                <section id="slideUp">
+                    <h2>.slideUp()</h2>
+                    <button id="btn-slideUp">slideUp</button>
+                    <p class="description">Click the button to see this section disappear by sliding up.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/slideUp/" target="_blank">slideUp</a></p>
+                </section>
+                
+                <section id="text">
+                    <h2>.text()</h2>
+                    <button id="btn-text">text</button>
+                    <p class="description">Click the button to see the inner HTML text of this section.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/text/" target="_blank">text</a></p>
+                </section>
+                
+                <section id="toggle">
+                    <h2>.toggle()</h2>
+                    <button id="btn-toggle">toggle</button>
+                    <p class="description">Click the button to see the documentation paragraph disappear.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/toggle/" target="_blank">toggle</a></p>
+                </section>
+                
+                <section id="val">
+                    <h2>.val()</h2>
+                    <button id="btn-val" class="top-align margin-right">val</button>
+                    <label for="single" class="top-align">Single option</label>
+                    <select id="single" class="top-align margin-right">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                    <label for="multiple" class="top-align">Multiple option</label>
+                    <select id="multiple" multiple="multiple">
+                        <option selected="selected">Option 1</option>
+                        <option>Option 2</option>
+                        <option selected="selected">Option 3</option>
+                    </select>
+                    <p class="description">Click the button to see the selected values.</p>
+                    <p class="docs">Documentation: <a href="https://api.jquery.com/val/" target="_blank">val</a></p>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

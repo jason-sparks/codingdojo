@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jason Sparks">
+        <meta name="description" content="JQuery Practice Scratch Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery Practice</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>    // Using the jQuery .text() method as a getter
+            $(document).ready(function() {
+                var myText = $("#myParagraph").text();
+                alert(myText);
+            });
+        </script>
+        <script>    // Using the jQuery .text() method as a setter
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('#myParagraph').text('See how the JQuery method .text() works as a setter?');
+                })
+            })
+          </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>JQuery</h1>
+            <p id="myParagraph">This is my paragraph!</p>
+            <button> Click me to change the paragraph!</button>
+        </div>
+    </body>
+</html>
