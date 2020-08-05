@@ -1,0 +1,95 @@
+<html lang="en_US">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .wall {
+            background-color: blue;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+        }
+        .blank {
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+        }
+        .sushi {
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url("img/sushi.png");
+            background-size: contain;
+        }
+        #ninjaman {
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url("img/ninja.gif");
+            background-size: contain;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div id="world"></div>
+    <div id="ninjaman"></div>
+  </body>
+  <script type="text/javascript">
+    var world = [
+        [1,1,1,1,1],
+        [1,0,2,2,1],
+        [1,2,1,2,1],
+        [1,2,2,2,1],
+        [1,2,2,2,1],
+        [1,2,1,2,1],
+        [1,2,2,2,1],
+        [1,2,2,2,1],
+        [1,2,1,2,1],
+        [1,2,2,2,1],
+        [1,1,1,1,1]
+    ];
+
+    var worldDict = {
+        0: "blank",
+        1: "wall",
+        2: "sushi"
+    };
+
+    function drawWorld(){
+        output = "";
+
+        for (var row = 0; row < world.length; row++){
+            output += "<div class='row'>"
+            for (var x = 0; x < world[row].length; x++){
+                output += "<div class='" + worldDict[world[row][x]] + "'></div>"
+                //console.log("element: ", worldDict[world[row][x]])
+            }
+            output += "</div>"
+        }
+
+        document.getElementById("world").innerHTML = output;
+
+    }
+    drawWorld();
+
+    var ninjaman = {
+        x: 1, 
+        y: 1
+    }
+
+    function drawNinjaman(){
+        
+    }
+
+  </script>
+</html>
