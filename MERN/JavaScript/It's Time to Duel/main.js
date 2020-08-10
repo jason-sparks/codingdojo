@@ -47,8 +47,8 @@ class Effect extends Card {
 }
 
 // Instantiate Unit Cards 
-// const RedBeltNinja = new Unit("Red Belt Ninja", 3, 3, 4)
-// const BlackBeltNinja = new Unit("Black Belt Ninja", 4, 5, 4)
+const RedBeltNinja = new Unit("Red Belt Ninja", 3, 3, 4)
+const BlackBeltNinja = new Unit("Black Belt Ninja", 4, 5, 4)
 
 // Instantiate Effect Cards 
 const HardAlgorithm = new Effect("Hard Algorithm", 2, "Increases target's resilience by 3", "res", 3);
