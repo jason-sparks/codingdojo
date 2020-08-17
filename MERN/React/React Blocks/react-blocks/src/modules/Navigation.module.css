@@ -1,0 +1,9 @@
+.nav {
+    background-color: #6fa8dc;
+    height: 500px;
+    width: 20%;
+    margin-top: 15px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+}
