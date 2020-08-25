@@ -1,0 +1,25 @@
+form {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.formField {
+    width: 100%;
+    margin: 2.5% 0;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.formLabel {
+    display: inline-block;
+    margin-left: -100px;
+    width: 125px;
+}
+
+.formInput {
+    position: relative;
+    bottom: 11px;
+}
