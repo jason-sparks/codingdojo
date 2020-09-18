@@ -17,7 +17,10 @@ const UserSchema = new mongoose.Schema(
       min: [1, "You must be at least 1 or older to register"],
       max: [150, "You must be at most 149 years old to register"]
     },
-    email: { type: String, required: [true, "Email is required"] }
+    email: { 
+      type: String, 
+      required: [true, "Email is required"] 
+    }
   },
   { timestamps: true }
 );
