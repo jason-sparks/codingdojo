@@ -4,7 +4,7 @@ import React from 'react';
 const Tabs = (props) => {
     const onClickHandler = (value) => {
         // Lift state to parent component App.js
-        props.displayTabContent(value);
+        props.updateDisplayedTabContent(value);
         alert(value);
     };
 

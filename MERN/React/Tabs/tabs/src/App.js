@@ -22,14 +22,14 @@ function App() {
   ];
 
   // Lift state from Tabs.js using a function as a prop
-  const displayTabContent = (tabContent) => {
+  const updateDisplayedTabContent = (tabContent) => {
     setResults(tabContent);
   };
 
   return (
     <div className="App">
       <div className="container">
-        <Tabs items={items} displayTabContent={displayTabContent}/>
+        <Tabs items={items} updateDisplayedTabContent={updateDisplayedTabContent}/>
         <div className="row mt-5">
           {results}
         </div>
