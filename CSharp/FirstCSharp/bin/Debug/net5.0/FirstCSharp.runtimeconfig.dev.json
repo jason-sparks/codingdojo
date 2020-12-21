@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jspar\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jspar\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.exe
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.deps.json
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.runtimeconfig.json
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.runtimeconfig.dev.json
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.dll
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\ref\FirstCSharp.dll
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\bin\Debug\net5.0\FirstCSharp.pdb
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.csprojAssemblyReference.cache
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.dll
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\ref\FirstCSharp.dll
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.pdb
+C:\Users\jspar\Documents\Projects\CodingDojo\CSharp\FirstCSharp\obj\Debug\net5.0\FirstCSharp.genruntimeconfig.cache
